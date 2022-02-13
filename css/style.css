@@ -1,0 +1,130 @@
+    * {
+      box-sizing: border-box;
+      }
+
+    body{
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+     }
+
+    header{
+      width: 100%;
+      height: fit-content;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-family: Lucida Sans  ;
+      font-size: 1.75em;
+      font-weight: bold;
+      text-align-last: center;
+    }
+
+    .menu-item  {
+      float: right;
+      width: 30%;
+      height: fit-content;
+      font-size: 1.25em;
+      font-weight: bold;
+      text-align-last: center;
+      background-color: blanchedalmond;
+      border-left: 2px  solid black;
+      border-bottom: 2px  solid black;
+      font-style: quosm;
+    }
+
+    #secti-1, #secti-2, #secti-3{
+       background-color: #808080;
+       border: 2px solid black;
+      }
+
+    #title1{
+     background-color: #ff99a8;
+    }
+    
+    #title2{
+     background-color: #d74242;
+     color: white;
+    }
+
+    #title3{
+     background-color: #ffe699;
+    }
+
+    p{
+       margin-top: 35px;
+      text-align: left;
+      padding-left: 10px;
+      padding-right: 15px;
+
+    }
+     .col-3{
+      background-color: #808080;
+      border: 2px solid black;
+     }
+
+     .col-6{
+        margin-top: 20px;   
+        background-color: #808080;
+        border: 2px solid black;  
+      } 
+
+    .row{ margin: 20px;}
+
+     element{
+       display: none;   
+     }
+
+  /*  mobile view */
+    [class*="col-"] {
+     width: 100%;
+     margin-bottom: 20px;
+     } 
+
+  /* For Desktop view */
+  @media (min-width: 992px){
+  .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+    float: left;
+    white-space: 10px;
+      }
+   #secti-2{ margin-left: 20px; margin-right: 20px;
+      } 
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 31.90%;}
+  .col-4 {width: 36.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 74.99%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+   }
+
+  /* For Medium devices */
+  @media (min-width: 768px) and (max-width: 991px){
+  .col-s-1, .col-s-2, .col-s-3, .col-s-4, .col-s-5, .col-s-6, .col-s-7, .col-s-8, .col-s-9, .col-s-10, .col-s-11, .col-s-12 {
+    float: left;
+    margin-left: 20px;
+      }
+  #secti-3{ width: 95.59%;
+      }
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 46.6%;} 
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+ 
+  element{
+      display: initial;
+    }
+  }
